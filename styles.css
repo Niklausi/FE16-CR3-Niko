@@ -133,6 +133,11 @@ body {
   border: 1px solid gray;
 }
 
+.card-body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
 .touch {
   grid-area: "touch";
   background-color: #F8F9FA;
@@ -174,11 +179,17 @@ footer {
   text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
+  .navbar {
+    width: auto;
+  }
   .herosec {
-    width: 100%;
+    width: auto;
   }
   .content {
+    width: auto;
+  }
+  .stage1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -186,6 +197,73 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    row-gap: 20px;
+  }
+  .stage2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .stage3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+  }
+  .touch {
+    display: none;
+  }
+  footer {
+    width: auto;
+    height: 30%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 992px) {
+  .navbar {
+    width: auto;
+  }
+  .herosec {
+    width: 100%;
+  }
+  .content {
+    width: auto;
+  }
+  .stage1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+  .stage2 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+  .stage3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+  .touch {
+    width: auto;
+  }
+  footer {
+    width: auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */
