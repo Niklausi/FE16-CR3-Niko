@@ -1,0 +1,116 @@
+ul {
+  list-style-type: none;
+  margin: 10px;
+  color: black;
+  margin-top: 10px;
+}
+
+.navbar {
+  background-color: #F8F9FA;
+  height: 50px;
+}
+
+.btn-success {
+  margin-left: 10px;
+}
+
+.navitem {
+  margin-left: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navitem1 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.herosec {
+  height: 350px;
+  background-image: url(https://media.istockphoto.com/photos/music-festival-crowd-picture-id874747066?b=1&k=20&m=874747066&s=170667a&w=0&h=cbwlu6CMnWwQ8Zse6LzPhQuic3aRVqidrWJC_mEA6gY=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.herosec p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.heroitem {
+  width: 50px;
+  height: 50px;
+}
+
+.herobtn {
+  margin-top: 40px;
+}
+
+.heroitsec {
+  margin-top: 100px;
+}
+
+.herocont {
+  margin-top: 50px;
+}
+
+.stage {
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.card {
+  width: 10px;
+  height: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.carddate {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.month {
+  color: green;
+  margin: 0;
+}
+
+.prize {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.lastrow {
+  margin-bottom: 20px;
+}
+
+.main img {
+  height: 350px;
+  width: 300px;
+}
+
+.touch {
+  height: 250px;
+  background-color: #F8F9FA;
+}
+
+.touch img {
+  height: 180px;
+  width: 180px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+/*# sourceMappingURL=styles.css.map */
